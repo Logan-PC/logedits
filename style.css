@@ -45,6 +45,7 @@
 	border-radius: 10px;
 	padding: 5px;
 	margin-left: 10px;
+	display: flex;
 }
 
 #log {
