@@ -1,14 +1,14 @@
 /*
 
-.My-Color-Theme-1-hex { color: #3CF0E1; }
-.My-Color-Theme-2-hex { color: #3083F0; }
-.My-Color-Theme-3-hex { color: #30C0F0; }
-.My-Color-Theme-4-hex { color: #67F5BA; }
-.My-Color-Theme-5-hex { color: #3046F0; }
-.My-Color-Theme-6-hex { color: #7FD4F0; }
+	#3CF0E1 A very light blue
+	#3083F0 A dark blue
+	#30C0F0
+	#67F5BA A very light green
+	#3046F0 A midway blue
+	#7FD4F0 A very light blue
+	#4DE37B A darker green
 
 */
-
 
 .menubar {
 	height: 150px;
@@ -61,6 +61,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	margin: 10px;
+	margin-bottom: 60px;
 }
 
 .video_card p {
@@ -73,19 +74,32 @@
 	grid-template-columns: repeat(2, 1fr);
 	gap: 30px;
 }
+
+.pricing_card {
+	margin: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border: 2px dashed black;
+	background-color: #67F5BA;
+}
+
+.contact_card {
+	margin: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border: 2px solid black;
+	background-image: url("gray_back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 	
 #log {
-	float: left;
 	border-radius: 10px;
 }
 
 #log:hover {
 	background-color: gray;
 }
-
-/* #vid1descr, #vid2descr {
-	margin-left: 10px;
-} */
 
 button {
 	color: #67F5BA; /* A very light green */
@@ -101,11 +115,6 @@ button {
 button:hover {
 	background-color: black;
 }
-
-/* video {
-	margin-top: 10px;
-	margin-left: 10px;
-} */
 
 p {
 	color: #3046F0; /* A midway blue */
@@ -139,6 +148,30 @@ h1 {
 	font-size: 20px;
 	color: red;
 	margin-left: 10px;
+}
+
+#price_1, #price_2, #price_3 {
+	color: #3083F0;
+	font-family: "Courier New", monospace;
+	text-shadow: 2px 2px 4px;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+#p1, #p2, #p3 {
+	font-style: italic;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px;
+	margin-left: 20px;
+	color: red;
+}
+
+#contact_info {
+	font-family: "Courier New", monospace;
+	color: purple;
+	margin-left: 20px;
+	text-shadow: 2px 2px 4px;
+	font-style: italic;
 }
 
 ::selection {
