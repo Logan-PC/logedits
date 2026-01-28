@@ -206,6 +206,7 @@ h1 {
 		font-size: 16px;
 		width: auto;
 		padding: 5px;
+		margin-left: 10px;
 	}
 	
 	.video_grid {
@@ -230,16 +231,21 @@ h1 {
 	}
 	
 	video {
-		width: 400px;
-		height: 240px;
+		width: 200px;
+		height: 120px;
 	}
 	
 	#price_1, #price_2, #price_3 {
 		margin-left: 5px;
+		font-size: 16px;
 	}
 
 	#p1, #p2, #p3 {
 		font-size: 12px;
 		margin-left: 10px;
+	}
+	
+	#contact_info {
+		font-size: 16px;
 	}
 }
