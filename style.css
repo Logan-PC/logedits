@@ -191,11 +191,11 @@ h1 {
 	}
 	
 	.navigation_left {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 		position: static;
-		flex-direction: row;
 		width: 100%;
 		min-height: auto;
-		justify-content: space-around;
 		align-items: center;
 		border-radius: 10px;
 		margin-bottom: 10px;
@@ -207,6 +207,10 @@ h1 {
 		width: auto;
 		padding: 5px;
 		margin-left: 10px;
+	}
+	
+	.main_content {
+		padding: 5px;
 	}
 	
 	.video_grid {
