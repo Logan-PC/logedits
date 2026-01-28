@@ -181,8 +181,13 @@ h1 {
 
 /* RWD for mobile and beyond */
 @media (max-width: 768px) {
+	.menubar {
+		align-items: center;
+	}
+	
 	.content {
 		flex-direction: column;
+		margin: 10px;
 	}
 	
 	.navigation_left {
@@ -194,6 +199,7 @@ h1 {
 		align-items: center;
 		border-radius: 10px;
 		margin-bottom: 10px;
+		gap: 15px;
 	}
 	
 	.navigation_left a {
@@ -204,6 +210,7 @@ h1 {
 	
 	.video_grid {
 		grid-template-columns: repeat(1, 1fr);
+		gap: 15px;
 	}
 	
 	.video_card {
@@ -223,7 +230,16 @@ h1 {
 	}
 	
 	video {
-		width: 100px;
-		height: 60px;
+		width: 400px;
+		height: 240px;
+	}
+	
+	#price_1, #price_2, #price_3 {
+		margin-left: 5px;
+	}
+
+	#p1, #p2, #p3 {
+		font-size: 12px;
+		margin-left: 10px;
 	}
 }
