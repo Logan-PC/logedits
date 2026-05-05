@@ -118,7 +118,7 @@ button:hover {
 
 p {
 	color: #3046F0; /* A midway blue */
-	/*text-shadow: 2px 2px 4px;*/
+	text-shadow: 2px 2px 4px;
 	font-family: "Papyrus", fantasy;
 	font-size: 25px;
 }
