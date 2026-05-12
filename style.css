@@ -221,8 +221,6 @@ h1 {
 	
 	.video_card {
 		margin-bottom: 15px;
-		height: 50px;
-		width: 100%;
 	}
 	
 	.pricing_card {
@@ -238,7 +236,7 @@ h1 {
 	}
 	
 	video {
-		width: 100%;
+		width: 360px;
 		height: 120px;
 	}
 	
